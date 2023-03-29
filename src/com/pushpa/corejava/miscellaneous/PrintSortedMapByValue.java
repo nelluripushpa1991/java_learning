@@ -23,9 +23,9 @@ public class PrintSortedMapByValue {
         unsortMap.put("f", 9);
         unsortMapReverse = unsortMap;
         System.out.println("Unsorted Map : "+unsortMap);
-//        Map<String, Integer> sortedMapByKeyAsc = unsortMap.entrySet().stream().sorted(Map.Entry.comparingByValue())
-//                .collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue,(integer, integer2) -> integer, LinkedHashMap::new));
-//        System.out.println("SortedMap Using Key : "+sortedMapByKeyAsc);
+        Map<String, Integer> sortedMapByKeyAsc = unsortMap.entrySet().stream().sorted(Map.Entry.comparingByValue())
+                .collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue,(integer, integer2) -> integer, LinkedHashMap::new));
+        System.out.println("SortedMap Using Key : "+sortedMapByKeyAsc);
 
         Map<String, Integer> result2 = new LinkedHashMap<>();
         unsortMap.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEachOrdered(x -> result2.put(x.getKey(),x.getValue()));

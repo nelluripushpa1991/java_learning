@@ -50,5 +50,17 @@ public class PrintSortedMapByKey {
         System.out.println("Reverse Sorted...");
         System.out.println(result);
         System.out.println(result3);
+
+
+        Map<Integer, String> map = new HashMap<>();
+        map.put(111,"abc");
+        map.put(222,"xyz");
+        map.put(333,"pqr");
+        map.put(444,"mno");
+        System.out.println(map);
+        Map<Integer,String> reverseMap = map.entrySet().stream().sorted(Map.Entry.comparingByValue())
+                .collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue,(e1,e2) -> e1, LinkedHashMap::new));
+        System.out.println(map);
+        System.out.println(reverseMap);
     }
 }
