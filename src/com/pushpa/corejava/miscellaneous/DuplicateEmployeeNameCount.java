@@ -64,7 +64,7 @@ public class DuplicateEmployeeNameCount {
         System.out.println(nameCount);
 
         // Other way without java 8 streams
-        System.out.println("normal way with java 8 features streams");
+        System.out.println("normal way without java 8 features streams");
         Map<String, Integer> integerMap = new HashMap<>();
         for (Employee e: employeeList) {
             if (!integerMap.containsKey(e.getName())) {

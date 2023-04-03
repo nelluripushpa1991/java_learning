@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/collections/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/SortOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/SortOfMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/FlatMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SummaryStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/predefinedFunctionalInterface/BiFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/predefinedFunctionalInterface/BiFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/predefinedFunctionalInterface/BiPredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/predefinedFunctionalInterface/BiPredicateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MergeLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MergeLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/PrintSortedMapByKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/PrintSortedMapByKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/PrintSortedMapByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/PrintSortedMapByValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateEmployeeNameCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateEmployeeNameCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/FilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/FilterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/CollectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/CollectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/CountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/CountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/ForEachDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/ForEachDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/MinMaxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/MinMaxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/OfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/OfDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SortedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SortedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/ToArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/ToArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,35 +57,9 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BiFunctionDemo">
-    <configuration name="BiFunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.functionalInterface.predefinedFunctionalInterface.BiFunctionDemo" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.functionalInterface.predefinedFunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BiPredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.functionalInterface.predefinedFunctionalInterface.BiPredicateDemo" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.functionalInterface.predefinedFunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintSortedMapByKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.PrintSortedMapByKey" />
+  <component name="RunManager" selected="Application.ImmutableDemo">
+    <configuration name="DuplicateEmployeeNameCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.DuplicateEmployeeNameCount" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSortedMapByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.PrintSortedMapByValue" />
+    <configuration name="ImmutableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.strings.ImmutableDemo" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.MergeLists" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.SortOfList" />
+    <configuration name="PalindromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.PalindromString" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.streams.processing.ToArrayDemo" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.streams.processing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BiFunctionDemo" />
-        <item itemvalue="Application.PrintSortedMapByValue" />
-        <item itemvalue="Application.SortOfList" />
-        <item itemvalue="Application.BiPredicateDemo" />
-        <item itemvalue="Application.PrintSortedMapByKey" />
+        <item itemvalue="Application.ImmutableDemo" />
+        <item itemvalue="Application.PalindromString" />
+        <item itemvalue="Application.MergeLists" />
+        <item itemvalue="Application.DuplicateEmployeeNameCount" />
+        <item itemvalue="Application.ToArrayDemo" />
       </list>
     </recent_temporary>
   </component>
