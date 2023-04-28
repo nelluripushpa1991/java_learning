@@ -9,10 +9,10 @@ public class SummaryStatistics {
 
         //print all Summary Statistics
         List<Integer> primesNumbers = Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29);
-        IntSummaryStatistics stats = primesNumbers.stream().mapToInt((x) -> x) .summaryStatistics();
+        IntSummaryStatistics stats = primesNumbers.stream().mapToInt((x) -> x).summaryStatistics();
 
         List<Integer> primesNumbers1 = Arrays.asList(35,37,41);
-        IntSummaryStatistics stats1 = primesNumbers1.stream().mapToInt((x) -> x) .summaryStatistics();
+        IntSummaryStatistics stats1 = primesNumbers1.stream().mapToInt((x) -> x).summaryStatistics();
 
 
         System.out.println("Min : "+stats.getMin());

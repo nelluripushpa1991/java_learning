@@ -1,11 +1,17 @@
 package com.pushpa.corejava.strings;
 
+import java.util.ArrayList;
+
 public class ImmutableDemo {
     public static void main(String[] args) {
-        String s = "pushpa";
-        System.out.println("before s value : "+s);
+        ArrayList<String> tokens = new ArrayList<>();
+        tokens.add("active");
+        tokens.add("new token");
 
-        s = "nelluri";
-        System.out.println("after s value : "+s);
+        Record record = new Record(1, "value", tokens);
+        System.out.println(record);   //Record{id=1, name='value', tokens=[active]}
+
+        record.getTokens().add("new token1");
+        System.out.println(record);   //Record{id=1, name='value', tokens=[active]}
     }
 }
