@@ -3,7 +3,7 @@ package com.pushpa.corejava.miscellaneous;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class DuplicateCount {
+public class    DuplicateCount {
     public static void main(String[] args) {
 
 //        Define and initialize an array or collection of integers with the following values: 10, 30, 2001, 2001, 400, 10, 6, 55, 2001, 55.

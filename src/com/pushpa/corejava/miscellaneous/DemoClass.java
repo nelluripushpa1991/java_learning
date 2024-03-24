@@ -8,5 +8,9 @@ public class DemoClass {
         System.out.println("java");
         System.out.println('j'+'a');
         System.out.println('j'+'a'+'v'+'a');
+        String a = null;
+        String b = "world";
+        System.out.println(a+b);
+
     }
 }

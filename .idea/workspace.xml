@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DemoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/EmployeeLocationSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MostUsedWordInListOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/OptionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/ReverseOfWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/StringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/UtilDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/StringEqualDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/StringMethodsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/datastructures/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/equation/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/loto/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MergeNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/SecondLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/searchs/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/sorts/SortedSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/test/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SummaryStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SummaryStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DemoClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/FlatMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/configuration/FlatMapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +59,48 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseOfWords">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.DemoClass" />
+  <component name="RunManager" selected="Application.LottoProgram1">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.searchs.BinarySearchTree" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.searchs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LottoProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.loto.LottoProgram" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.loto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LottoProgram1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.loto.LottoProgram1" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.loto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.MergeNames" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -71,51 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.MergeLists" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.loto.Program" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MostUsedWordInListOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.MostUsedWordInListOfStrings" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.ReverseOfWords" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringEqualDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.strings.StringEqualDemo" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.strings.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.loto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseOfWords" />
-        <item itemvalue="Application.MostUsedWordInListOfStrings" />
-        <item itemvalue="Application.DemoClass" />
-        <item itemvalue="Application.MergeLists" />
-        <item itemvalue="Application.StringEqualDemo" />
+        <item itemvalue="Application.LottoProgram1" />
+        <item itemvalue="Application.LottoProgram" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.MergeNames" />
+        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +156,61 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
