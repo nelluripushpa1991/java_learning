@@ -64,10 +64,10 @@ public class MinMaxDemo {
         System.out.println("minNumber : "+minNumber);
 
         // Get Min or Max String/Char
-        String maxChar = Stream.of("Has", "ATab", "Dad", "Ias", "Jan")
+        String maxString = Stream.of("Has", "ATab", "Dad", "Ias", "Jan")
                 .max(Comparator.comparing(String::valueOf))
                 .get();
-        System.out.println("maxChar : "+maxChar);
+        System.out.println("maxString : "+maxString);
 
         String minChar = Stream.of("H", "T", "D", "I", "J")
                 .min(Comparator.comparing(String::valueOf))

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/scope/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/scope/WaysToBreakSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/BrowserCacheLeastRecentlyUsed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/MasterQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/PersistentSystemSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/MinMaxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/MinMaxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SummaryStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/streams/processing/SummaryStatistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/naren/OneDrive/Desktop/Pushpa/java_learning&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/naren/OneDrive/Desktop/Pushpa/java_learning&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,65 +55,65 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicateCount">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.DemoClass" />
+  <component name="RunManager" selected="Application.MasterQueue">
+    <configuration name="BrowserCacheLeastRecentlyUsed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.BrowserCacheLeastRecentlyUsed" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MasterQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.MasterQueue" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistentSystemSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.PersistentSystemSample" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.tests.Sample" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pushpa.corejava.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.SampleTest" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuplicateCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.DuplicateCount" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeLocationSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.EmployeeLocationSort" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.sorts.SortedSearch" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringEqualDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.strings.StringEqualDemo" />
-      <module name="JavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateCount" />
-        <item itemvalue="Application.EmployeeLocationSort" />
-        <item itemvalue="Application.DemoClass" />
-        <item itemvalue="Application.StringEqualDemo" />
-        <item itemvalue="Application.SortedSearch" />
+        <item itemvalue="Application.MasterQueue" />
+        <item itemvalue="Application.BrowserCacheLeastRecentlyUsed" />
+        <item itemvalue="Application.PersistentSystemSample" />
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.SampleTest" />
       </list>
     </recent_temporary>
   </component>
