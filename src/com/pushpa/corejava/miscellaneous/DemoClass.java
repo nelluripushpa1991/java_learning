@@ -12,5 +12,8 @@ public class DemoClass {
         String b = "world";
         System.out.println(a+b);
 
+        int c = 5, d = 7;
+        System.out.println(c+d);
+
     }
 }
