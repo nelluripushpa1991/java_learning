@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/designpatterns/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/designpatterns/singleton/WaysToBreakSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/FebonacciUsingRecurssion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/Isogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/PrimeFactorForGivenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/datastructures/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/customFunctionalInterface/NormalInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/ArrayRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/apple/ArrayRotationByAnyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/apple/ArrayRotationByOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FebonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/AgeCalculatorFromDOB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateCountString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/sample/ArrayRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/tests/DuplicateItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/interview/coding/Sample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/PersistentSystemSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/DuplicateCharCountInWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DemoClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +67,13 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FebonacciUsingRecurssion">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.DemoClass" />
+  <component name="RunManager" selected="Application.FactorialNumber">
+    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.FactorialNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FebonacciUsingRecurssion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.FebonacciUsingRecurssion" />
+    <configuration name="FebonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.FebonacciSeries" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.Isogram" />
+    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.PalindromeString" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorForGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.PrimeFactorForGivenNumber" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.PrimeNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaysToBreakSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.designpatterns.singleton.WaysToBreakSingleton" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.ReverseNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.designpatterns.singleton.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FebonacciUsingRecurssion" />
-        <item itemvalue="Application.Isogram" />
-        <item itemvalue="Application.WaysToBreakSingleton" />
-        <item itemvalue="Application.DemoClass" />
-        <item itemvalue="Application.PrimeFactorForGivenNumber" />
+        <item itemvalue="Application.FactorialNumber" />
+        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.PalindromeString" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.FebonacciSeries" />
       </list>
     </recent_temporary>
   </component>
