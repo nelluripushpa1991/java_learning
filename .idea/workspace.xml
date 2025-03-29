@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/datastructures/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/functionalInterface/customFunctionalInterface/NormalInterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/ArrayRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/apple/ArrayRotationByAnyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/apple/ArrayRotationByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/leetcode/easy/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FebonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/AgeCalculatorFromDOB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/DuplicateCountString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/sample/ArrayRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/tests/DuplicateItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/interview/coding/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/LargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/SwapNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/VowelConsonantCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +55,9 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FactorialNumber">
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.FactorialNumber" />
+  <component name="RunManager" selected="Application.VowelConsonantCount">
+    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.ArmstrongNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FebonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.FebonacciSeries" />
+    <configuration name="LargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.LargestElementInArray" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.PrimeNumber" />
+    <configuration name="SwapNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.SwapNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.ReverseNumber" />
+    <configuration name="VowelConsonantCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.VowelConsonantCount" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.VowelConsonantCount" />
+        <item itemvalue="Application.LargestElementInArray" />
         <item itemvalue="Application.PalindromeString" />
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.FebonacciSeries" />
+        <item itemvalue="Application.SwapNumber" />
+        <item itemvalue="Application.ArmstrongNumber" />
       </list>
     </recent_temporary>
   </component>

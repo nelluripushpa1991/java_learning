@@ -15,8 +15,6 @@ public class FactorialNumber {
     }
 
     public static int factorialRecursiveApproach(int n) {
-        if (n == 1)
-            return n;
-        return n*factorialRecursiveApproach(n-1);
+        return (n == 0 || n == 1) ? 1 :n*factorialRecursiveApproach(n-1);
     }
 }

@@ -15,5 +15,11 @@ public class ReverseNumber {
         }
         System.out.println("Original Number : "+original);
         System.out.println("Reverse Number : "+reverse);
+
+        // palindrome or not
+        if (original == reverse)
+            System.out.println("Palindrome Number");
+        else
+            System.out.println("Not Palindrome Number");
     }
 }
