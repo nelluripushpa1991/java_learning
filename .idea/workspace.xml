@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ArmstrongNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/LargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/SwapNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/VowelConsonantCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/database/queries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/ArrayRotationOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/CharacterGroupCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/SortOddNumberInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/FactorialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +50,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pushpa.corejava.logics" />
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VowelConsonantCount">
-    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.ArmstrongNumber" />
+  <component name="RunManager" selected="Application.CharacterGroupCount">
+    <configuration name="ArrayRotationOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.ArrayRotationOptimized" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.LargestElementInArray" />
+    <configuration name="CharCountBasedOnGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.CharCountBasedOnGroup" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.PalindromeString" />
+    <configuration name="CharacterGroupCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.CharacterGroupCount" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.SwapNumber" />
+    <configuration name="PrimeFactorForGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.PrimeFactorForGivenNumber" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelConsonantCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.VowelConsonantCount" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.interview.coding.Sample" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.pushpa.interview.coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VowelConsonantCount" />
-        <item itemvalue="Application.LargestElementInArray" />
-        <item itemvalue="Application.PalindromeString" />
-        <item itemvalue="Application.SwapNumber" />
-        <item itemvalue="Application.ArmstrongNumber" />
+        <item itemvalue="Application.CharacterGroupCount" />
+        <item itemvalue="Application.CharCountBasedOnGroup" />
+        <item itemvalue="Application.ArrayRotationOptimized" />
+        <item itemvalue="Application.PrimeFactorForGivenNumber" />
+        <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
   </component>

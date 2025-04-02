@@ -9,9 +9,9 @@ public class ImmutableDemo {
         tokens.add("new token");
 
         Record record = new Record(1, "value", tokens);
-        System.out.println(record);   //Record{id=1, name='value', tokens=[active]}
+        System.out.println(record);   //Record{id=1, name='value', tokens=[active, new token]}
 
         record.getTokens().add("new token1");
-        System.out.println(record);   //Record{id=1, name='value', tokens=[active]}
+        System.out.println(record);   //Record{id=1, name='value', tokens=[active, new token]}
     }
 }
