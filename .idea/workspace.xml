@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/database/queries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/ArrayRotationOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/CharacterGroupCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/SortOddNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/ActiveEmployeeByDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/AnagramCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/CheckBalancedParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FibonacciUsingMemoization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FindDuplicatesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FindMissingNumInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FirstNonRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/HighestFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/Java8StreamExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/ReverseStringWithoutLibraryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/SortMapByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/interview/coding/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/interview/coding/Sample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/strings/ImmutableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +63,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pushpa.corejava.interview.aa" />
       <recent name="com.pushpa.corejava.logics" />
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharacterGroupCount">
-    <configuration name="ArrayRotationOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.ArrayRotationOptimized" />
+  <component name="RunManager" selected="Application.Java8StreamExamples">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.Anagram" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharCountBasedOnGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.CharCountBasedOnGroup" />
+    <configuration name="FibonacciUsingMemoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.fidelity.FibonacciUsingMemoization" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.fidelity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterGroupCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.CharacterGroupCount" />
+    <configuration name="FindDuplicatesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.fidelity.FindDuplicatesInArray" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.fidelity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorForGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.PrimeFactorForGivenNumber" />
+    <configuration name="HighestFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.fidelity.HighestFrequency" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.interview.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.fidelity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.interview.coding.Sample" />
+    <configuration name="Java8StreamExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.fidelity.Java8StreamExamples" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.interview.coding.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.fidelity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharacterGroupCount" />
-        <item itemvalue="Application.CharCountBasedOnGroup" />
-        <item itemvalue="Application.ArrayRotationOptimized" />
-        <item itemvalue="Application.PrimeFactorForGivenNumber" />
-        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.Java8StreamExamples" />
+        <item itemvalue="Application.HighestFrequency" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.FibonacciUsingMemoization" />
+        <item itemvalue="Application.FindDuplicatesInArray" />
       </list>
     </recent_temporary>
   </component>

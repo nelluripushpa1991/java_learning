@@ -2,7 +2,7 @@ package com.pushpa.corejava.logics;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int n = 8;
+        int n = 7;
         if (primeNumberOrNot(n))
             System.out.println("Prime Number");
         else
