@@ -12,8 +12,10 @@ public class FindDuplicatesInArray {
         Set<Integer> seen = new HashSet<>();
         Set<Integer> duplicates = new HashSet<>();
         for (int num : arr) {
-            if (!seen.add(num))
+            if (!seen.add(num)) {
+                System.out.println("duplicate num : "+num);
                 duplicates.add(num);
+            }
         }
         System.out.println("duplicates : "+duplicates);
     }

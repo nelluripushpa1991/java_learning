@@ -13,7 +13,6 @@ public class SortedDemo {
 
         List<String> naturalSortList = list.stream().sorted().collect(Collectors.toList());
         List<String> reverseList = list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
         System.out.println("list data after "+list);
         System.out.println("natural sort oder string : "+naturalSortList);
         System.out.println("reverse sort order string"+reverseList);

@@ -2,10 +2,10 @@ package com.pushpa.corejava.interview.fidelity;
 
 import com.pushpa.interview.coding.Employee;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Java8StreamExamples {
     public static void main(String[] args) {
@@ -22,12 +22,53 @@ public class Java8StreamExamples {
         for (Student f : filteredList) {
             System.out.println(f);
         }
+
         System.out.println("****************************");
         // remove students those percentage is < 70 using java streams
         List<Student> studentList2 = getStudents();
         Long count = studentList1.stream().filter(f -> f.getPercentage() > 70).count();
         System.out.println(count);
 
+        // count of occurrences of char in given string
+        String input = "ilovejavatechie";
+        Map<Character, Long> map = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        System.out.println(map);
+
+        // find duplicate chars in given string
+        List<Map.Entry<Character, Long>> duplicateElements = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() > 1).collect(Collectors.toList());
+        System.out.println(duplicateElements);
+
+        // find non nonRepeatChar chars in given string
+        List<Map.Entry<Character, Long>> nonRepeatChar = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1).collect(Collectors.toList());
+        System.out.println(nonRepeatChar);
+
+        // find first non nonRepeatChar char in given string
+        Character key = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1).findFirst().get().getKey();
+        System.out.println(key);
+
+        // second highest number from given array
+        int [] intArr = {1,5,9,12,45,62,23,14,18};
+        Integer secondHighest = Arrays.stream(intArr).boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+        System.out.println(secondHighest);
+
+        // find elements from array who starts with 1
+        List<String> collectElementsStartWith1 = Arrays.stream(intArr).boxed().map(s -> s + "").filter(f -> f.startsWith("1")).collect(Collectors.toList());
+        System.out.println(collectElementsStartWith1);
+
+        // longest string from given array
+        String[] strArray = {"java", "techie", "springboot", "microservices"};
+        String longestString = Arrays.stream(strArray).reduce((word1, word2) -> word1.length() > word2.length() ? word1 : word2).get();
+        System.out.println(longestString);
+
+        // String.join method
+        List<String> list = Arrays.asList("1", "2", "3", "4");
+        String result = String.join("-", list);
+        System.out.println(result);
+
+        // skip and limit example (2-9)
+        IntStream.rangeClosed(1,10).skip(1).limit(8).forEach(value -> System.out.println(value));
+
+        // Find Nth highest salary
 
     }
 
