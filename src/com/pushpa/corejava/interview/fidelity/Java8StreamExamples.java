@@ -6,6 +6,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Java8StreamExamples {
     public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class Java8StreamExamples {
         }
 
         System.out.println("****************************");
-        // remove students those percentage is < 70 using java streams
+        // count of students those percentage is > 70 using java streams
         List<Student> studentList2 = getStudents();
         Long count = studentList1.stream().filter(f -> f.getPercentage() > 70).count();
         System.out.println(count);
@@ -75,12 +76,12 @@ public class Java8StreamExamples {
 
 
     public static List<Student> getStudents() {
-        List<Student> studentList = new ArrayList<>();
-        studentList.add(new Student(1,"a","aa","it", 71));
-        studentList.add(new Student(2,"b","bb","cse", 81));
-        studentList.add(new Student(3,"c","cc","ece", 61));
-        studentList.add(new Student(4,"d","dd","it", 91));
-        studentList.add(new Student(5,"e","ee","ece", 51));
+        List<Student> studentList = Stream.of(
+        new Student(1,"a","aa","it", 71),
+        new Student(2,"b","bb","cse", 81),
+        new Student(3,"c","cc","ece", 61),
+        new Student(4,"d","dd","it", 91),
+        new Student(5,"e","ee","ece", 51)).collect(Collectors.toList());
         return studentList;
     }
 }

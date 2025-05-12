@@ -1,7 +1,5 @@
 package com.pushpa.corejava.datastructures;
 
-import java.util.LinkedList;
-
 public class ReverseLinkedList {
     public static void main(String[] args) {
         Node listNode = new Node(10);

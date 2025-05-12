@@ -12,6 +12,8 @@ public class FindMissingNumInArray {
         for (int num : arr) {
             actualSum += num;
         }
+        System.out.println("expectedSum : "+expectedSum);
+        System.out.println("actualSum : "+actualSum);
         return expectedSum - actualSum;
     }
 }

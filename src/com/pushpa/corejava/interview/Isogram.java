@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Isogram {
     public static void main(String[] args) {
-        System.out.println("isIsogram : "+isIsogram("pen"));
-        System.out.println("isIsogram : "+isIsogram("codedecode"));
+        System.out.println("isIsogram : "+isIsogram("pen")); // true
+        System.out.println("isIsogram : "+isIsogram("codedecode")); // false
     }
     public static boolean isIsogram(String str) {
         boolean isIsogram = true;

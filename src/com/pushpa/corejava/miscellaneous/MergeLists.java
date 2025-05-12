@@ -13,7 +13,7 @@ public class MergeLists {
         List<Integer> allElements = Stream.concat(list1.stream(),list2.stream()).collect(Collectors.toList());
         System.out.println("All Elements : "+allElements);
 
-        Set<Integer> uniqueElements = allElements.stream().collect(Collectors.toSet());
+        Set<Integer> uniqueElements = new HashSet<>(allElements);
         System.out.println("Unique Elements : "+uniqueElements);
 
         Integer minValue = uniqueElements.stream().min((e1,e2) -> e1-e2).get();

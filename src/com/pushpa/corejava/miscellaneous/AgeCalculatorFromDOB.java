@@ -6,7 +6,7 @@ import java.time.Period;
 public class AgeCalculatorFromDOB {
     public static void main(String[] args) {
         // Define the date of birth
-        LocalDate birthDate = LocalDate.of(1991, 7, 21); // Example: 10th March 1995
+        LocalDate birthDate = LocalDate.of(1991, 7, 21); // Example: 21st Aug 1991
 
         // Get the current date
         LocalDate currentDate = LocalDate.now();

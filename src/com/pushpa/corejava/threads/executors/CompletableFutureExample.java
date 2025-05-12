@@ -3,7 +3,7 @@ package com.pushpa.corejava.threads.executors;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-public class CompletableFeature {
+public class CompletableFutureExample {
 
     public static void main(String[] args) throws ExecutionException,InterruptedException {
         CompletableFuture<Void> completableFuture = CompletableFuture.allOf(
