@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2469c2-7e33-4867-bd76-842017c8cc54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/interview/CSVFileParserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/StockCSVFileParserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/SelfDividingNumberChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/datastructures/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/datastructures/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/Isogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/Isogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/ActiveEmployeeByDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/ActiveEmployeeByDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/CharacterGroupCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/aa/CharacterGroupCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/AnagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/AnagramCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FindMissingNumInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/FindMissingNumInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/Java8StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/interview/fidelity/Java8StreamExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/AgeCalculatorFromDOB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/AgeCalculatorFromDOB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MergeLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/miscellaneous/MergeLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pushpa/corejava/threads/executors/CompletableFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pushpa/corejava/threads/executors/CompletableFutureExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,44 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActiveEmployeeByDepartment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CSVFileParserExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterGroupCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckBalancedParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicatesInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMissingNumInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HighestFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Isogram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java8StreamExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OfDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargestElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortMapByValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockCSVFileParserExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/naren/OneDrive/Desktop/Pushpa/java_learning&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActiveEmployeeByDepartment.executor": "Run",
+    "Application.AgeCalculatorFromDOB.executor": "Run",
+    "Application.AnagramCheck.executor": "Run",
+    "Application.CSVFileParserExample.executor": "Run",
+    "Application.CallableThreadMain.executor": "Run",
+    "Application.CharacterGroupCount.executor": "Run",
+    "Application.CheckBalancedParentheses.executor": "Run",
+    "Application.ExecutorExample1.executor": "Run",
+    "Application.ExecutorExample2.executor": "Run",
+    "Application.FindDuplicatesInArray.executor": "Run",
+    "Application.FindMissingNumInArray.executor": "Run",
+    "Application.FirstNonRepeatingCharacter.executor": "Run",
+    "Application.HighestFrequency.executor": "Run",
+    "Application.Isogram.executor": "Run",
+    "Application.Java8StreamExamples.executor": "Run",
+    "Application.OfDemo.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.RunnableThread.executor": "Run",
+    "Application.Sample.executor": "Run",
+    "Application.SampleTest.executor": "Run",
+    "Application.SecondLargestElement.executor": "Run",
+    "Application.SelfDividingNumberChecker.executor": "Run",
+    "Application.SortMapByValue.executor": "Run",
+    "Application.SortedSearch.executor": "Run",
+    "Application.StockCSVFileParserExample.executor": "Run",
+    "Application.ThreadExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/naren/OneDrive/Desktop/Pushpa/java_learning",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pushpa.corejava.interview.aa" />
@@ -93,13 +82,13 @@
       <recent name="com.pushpa.corejava.threads" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SampleTest">
-    <configuration name="CSVFileParserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.CSVFileParserExample" />
+  <component name="RunManager" selected="Application.SelfDividingNumberChecker">
+    <configuration name="AgeCalculatorFromDOB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.AgeCalculatorFromDOB" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.logics.PrimeNumber" />
+    <configuration name="CSVFileParserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.CSVFileParserExample" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.logics.*" />
+          <option name="PATTERN" value="com.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.miscellaneous.SecondLargestElement" />
+    <configuration name="SelfDividingNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pushpa.corejava.interview.aa.SelfDividingNumberChecker" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pushpa.corejava.miscellaneous.*" />
+          <option name="PATTERN" value="com.pushpa.corejava.interview.aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelfDividingNumberChecker" />
+        <item itemvalue="Application.AgeCalculatorFromDOB" />
         <item itemvalue="Application.SampleTest" />
         <item itemvalue="Application.StockCSVFileParserExample" />
         <item itemvalue="Application.CSVFileParserExample" />
-        <item itemvalue="Application.SecondLargestElement" />
-        <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -238,11 +227,6 @@
           <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/loto/LottoProgram.java</url>
           <line>92</line>
           <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/pushpa/corejava/logics/PrimeNumber.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
