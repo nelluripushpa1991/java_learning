@@ -33,15 +33,15 @@ public class Java8StreamExamples {
         // count of occurrences of char in given string
         String input = "ilovejavatechie";
         Map<Character, Long> map = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        System.out.println(map);
+        System.out.print(map);
 
         // find duplicate chars in given string
         List<Map.Entry<Character, Long>> duplicateElements = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() > 1).collect(Collectors.toList());
-        System.out.println(duplicateElements);
+        System.out.print(duplicateElements);
 
         // find non nonRepeatChar chars in given string
         List<Map.Entry<Character, Long>> nonRepeatChar = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1).collect(Collectors.toList());
-        System.out.println(nonRepeatChar);
+        System.out.print(nonRepeatChar);
 
         // find first non nonRepeatChar char in given string
         Character key = input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1).findFirst().get().getKey();

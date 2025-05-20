@@ -31,6 +31,8 @@ public class ActiveEmployeeByDepartment {
         System.out.println(finalMap);
     }
     public static Map<String, List<Employee>> activeEmployeeList(List<Employee> employeeList) {
-        return employeeList.stream().filter(emp -> emp.isActive()).collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(), empList -> empList.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).collect(Collectors.toList()))));
+        return employeeList.stream().filter(emp -> emp.isActive()).collect(Collectors.groupingBy(Employee::getDepartment,
+                Collectors.collectingAndThen(Collectors.toList(), empList -> empList.stream()
+                        .sorted(Comparator.comparing(Employee::getSalary).reversed()).collect(Collectors.toList()))));
     }
 }
