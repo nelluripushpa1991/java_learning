@@ -8,7 +8,9 @@ public class SampleTest {
     public static void main(String[] args) {
         List<String> input = Arrays.asList("apple", "banana", "apricot");
         // char occurrences using groupingBy()
-        Map<Character, Long> collect = input.stream().flatMap(str -> str.chars().mapToObj(c -> (char) c)).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        Map<Character, Long> collect = input.stream()
+                .flatMap(str -> str.chars().mapToObj(c -> (char) c))
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println("using groupingBy() : "+collect);
 
         // char occurrences using reduce()

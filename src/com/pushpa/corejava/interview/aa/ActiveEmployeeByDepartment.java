@@ -1,8 +1,5 @@
 package com.pushpa.corejava.interview.aa;
 
-import com.pushpa.interview.coding.Employee;
-
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -31,8 +28,9 @@ public class ActiveEmployeeByDepartment {
         System.out.println(finalMap);
     }
     public static Map<String, List<Employee>> activeEmployeeList(List<Employee> employeeList) {
-        return employeeList.stream().filter(emp -> emp.isActive()).collect(Collectors.groupingBy(Employee::getDepartment,
-                Collectors.collectingAndThen(Collectors.toList(), empList -> empList.stream()
-                        .sorted(Comparator.comparing(Employee::getSalary).reversed()).collect(Collectors.toList()))));
+        return employeeList.stream().filter(Employee::isActive)
+                .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.collectingAndThen(Collectors.toList(), empList -> empList.stream()
+                        .sorted(Comparator.comparing(Employee::getSalary).reversed())
+                        .collect(Collectors.toList()))));
     }
 }

@@ -1,7 +1,9 @@
 package com.pushpa.corejava.miscellaneous;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class MostUsedWordInListOfStrings {
     public static void main(String[] args) {
@@ -26,6 +28,12 @@ public class MostUsedWordInListOfStrings {
         Optional<Map.Entry<String,Long>> firstEntry = dupCountMap.entrySet().stream().findFirst();
         //System.out.println("firstEntry : "+firstEntry);
         mostUsedWord = firstEntry.get().getKey();
+
+        // optimized code
+        Map.Entry<String, Long> stringLongEntry = list.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (m1, m2) -> m1, LinkedHashMap::new)).entrySet().stream().findFirst().get();
+        System.out.println("sorted : "+stringLongEntry.getKey());
         return mostUsedWord;
     }
 

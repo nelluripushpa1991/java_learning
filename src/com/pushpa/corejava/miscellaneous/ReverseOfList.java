@@ -13,7 +13,7 @@ public class ReverseOfList {
         sList.add("abc");
         sList.add("xyz");
         System.out.println("Before Reversal : "+sList);
-        List<String> reverseList = IntStream.range(0,sList.size()).map(i -> sList.size()-1-i).mapToObj(sList::get).collect(Collectors.toList());
+        List<String> reverseList = IntStream.range(0,sList.size()).map(i -> sList.size()-1-i).mapToObj(sList::get).toList();
         // A,B,C,D ----> D,C,B,A
 //        0,4.map(3).mapToObj(get(3)).collect({D})
 //        0,4.map(2).mapToObj(get(2)).collect({D,C})

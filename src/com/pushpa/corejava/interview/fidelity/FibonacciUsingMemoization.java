@@ -11,7 +11,7 @@ public class FibonacciUsingMemoization {
     public static int fibonacciCheck(int num) {
         Map<Integer, Integer> memo = new HashMap<>();
         if (num <= 1) return num;
-        if (memo.containsKey(num)) return memo.get(num);
+        //if (memo.containsKey(num)) return memo.get(num);
         int result = fibonacciCheck(num-1) + fibonacciCheck(num-2);
         memo.put(num, result);
         return result;

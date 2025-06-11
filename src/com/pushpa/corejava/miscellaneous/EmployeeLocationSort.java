@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 
 class Employee1 {
@@ -41,18 +42,18 @@ class Employee1 {
 }
 public class EmployeeLocationSort {
     public static void main(String[] args) {
-        List<Employee1> employeeList = new ArrayList<>();
-        employeeList.add(new Employee1("raja","regina"));
-        employeeList.add(new Employee1("pushpa","saskatchewan"));
-        employeeList.add(new Employee1("anu","toronto"));
-        employeeList.add(new Employee1("milky","ontario"));
-        employeeList.add(new Employee1("pinky","toronto"));
-        employeeList.add(new Employee1("silky","saskatchewan"));
+        List<Employee1> employeeList = Stream.of(
+        new Employee1("raja","regina"),
+        new Employee1("pushpa","saskatchewan"),
+        new Employee1("anu","toronto"),
+        new Employee1("milky","ontario"),
+        new Employee1("pinky","toronto"),
+        new Employee1("silky","saskatchewan")).toList();
         System.out.println("employeeList : "+employeeList);
 
         List<Employee1> sortedEmployeeList = employeeList.stream()
                 .sorted(Comparator.comparing(Employee1::getLocation)
-                .thenComparing(Employee1::getEmpName)).collect(Collectors.toList());
+                .thenComparing(Employee1::getEmpName)).toList();
         System.out.println("sortedEmployeeList : "+sortedEmployeeList);
     }
 }

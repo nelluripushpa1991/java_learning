@@ -1,4 +1,4 @@
-package com.pushpa.corejava.test;
+package com.pushpa.corejava.miscellaneous;
 
 public class Account {
     private double balance;

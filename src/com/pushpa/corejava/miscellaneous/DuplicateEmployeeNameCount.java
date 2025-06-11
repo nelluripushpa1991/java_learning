@@ -2,6 +2,7 @@ package com.pushpa.corejava.miscellaneous;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class Employee {
     String id;
@@ -51,13 +52,13 @@ public class DuplicateEmployeeNameCount {
 
     public static void main(String[] args) {
 
-        List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(new Employee("111","pushpa",30));
-        employeeList.add(new Employee("222","roja",30));
-        employeeList.add(new Employee("333","pushpa",30));
-        employeeList.add(new Employee("444","vanaja",30));
-        employeeList.add(new Employee("555","roja",30));
-        employeeList.add(new Employee("666","latha",30));
+        List<Employee> employeeList = Stream.of(
+        new Employee("111","pushpa",30),
+        new Employee("222","roja",30),
+        new Employee("333","pushpa",30),
+        new Employee("444","vanaja",30),
+        new Employee("555","roja",30),
+        new Employee("666","latha",30)).toList();
 
         // using java 8 streams
         Map<String, Long> nameCount = employeeList.stream().collect(Collectors.groupingBy(Employee::getName, Collectors.counting()));
@@ -70,7 +71,7 @@ public class DuplicateEmployeeNameCount {
             if (!integerMap.containsKey(e.getName())) {
                 integerMap.put(e.getName(),1);
             } else {
-                integerMap.put(e.getName(), integerMap.get(e.getName())+1);
+                integerMap.put(e.getName(), integerMap.getOrDefault(e.getName(),0)+1);
             }
         }
         System.out.println(integerMap);

@@ -13,9 +13,9 @@ public class SortOfList {
         list.add("xyz");
         list.add("pqr");
         System.out.println("given list of integer : "+list);
-        List<String> naturalSortList = list.stream().sorted().collect(Collectors.toList());
-        List<String> reverseList = list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        List<String> naturalSortList = list.stream().sorted().toList();
+        List<String> reverseList = list.stream().sorted(Comparator.reverseOrder()).toList();
+        list.stream().sorted(Comparator.reverseOrder()).toList();
         System.out.println("list data after "+list);
         System.out.println("natural sort oder string : "+naturalSortList);
         System.out.println("reverse sort order string"+reverseList);
@@ -27,8 +27,8 @@ public class SortOfList {
         list1.add(666);
 
         System.out.println("given list of string : "+list1);
-        List<Integer> naturalSortList1 = list1.stream().sorted().collect(Collectors.toList());
-        List<Integer> reverseList1 = list1.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        List<Integer> naturalSortList1 = list1.stream().sorted().toList();
+        List<Integer> reverseList1 = list1.stream().sorted(Comparator.reverseOrder()).toList();
         System.out.println("natural sort order integer : "+naturalSortList1);
         System.out.println("reverse sort order integer : "+reverseList1);
     }

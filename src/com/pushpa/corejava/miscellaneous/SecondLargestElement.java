@@ -17,9 +17,7 @@ public class SecondLargestElement {
 
     }
     public  static int secondLargestElement(ArrayList<Integer> integerArrayList, int n) {
-        int nthLargestElement = integerArrayList.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()).get(n-1);
-
-        return nthLargestElement;
+        return integerArrayList.stream().sorted(Comparator.reverseOrder()).toList().get(n-1);
 
     }
 }

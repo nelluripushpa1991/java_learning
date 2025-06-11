@@ -14,7 +14,8 @@ public class SampleTest {
         empList.add(new Employee(4L, "ddd","ECE"));
         empList.add(new Employee(5L, "eee","CSE"));
 
-        Map<String, Long> empCountDept = empList.stream().collect(Collectors.groupingBy(Employee::getDept,Collectors.counting()));
+        Map<String, Long> empCountDept = empList.stream()
+                .collect(Collectors.groupingBy(Employee::getDept,Collectors.counting()));
         empCountDept.entrySet().stream().forEach(entry -> System.out.println("dept name : "+entry.getKey()+" count : "+entry.getValue()));
     }
 }

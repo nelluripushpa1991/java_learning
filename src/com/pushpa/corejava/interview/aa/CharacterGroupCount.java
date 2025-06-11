@@ -14,7 +14,11 @@ public class CharacterGroupCount {
 
     public static void getCharCountByGroupValue(String str, int groupVal) {
         if (str != null && !str.isEmpty()) {
-            Map<Character, Long> results = str.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, characterLongEntry -> (characterLongEntry.getValue() + groupVal - 1) / groupVal));
+            Map<Character, Long> results = str.chars().mapToObj(c -> (char) c)
+                    .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                    .entrySet().stream().collect(Collectors
+                            .toMap(Map.Entry::getKey, characterLongEntry ->
+                                    (characterLongEntry.getValue() + groupVal - 1) / groupVal));
             System.out.println("results : "+results);
         }
     }

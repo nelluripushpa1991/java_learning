@@ -1,7 +1,5 @@
 package com.pushpa.corejava.interview.fidelity;
 
-import com.pushpa.interview.coding.Employee;
-
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -67,7 +65,7 @@ public class Java8StreamExamples {
         System.out.println(result);
 
         // skip and limit example (2-9)
-        IntStream.rangeClosed(1,10).skip(1).limit(8).forEach(value -> System.out.println(value));
+        IntStream.rangeClosed(1,10).skip(1).limit(8).forEach(value -> System.out.print(value));
 
         // Find Nth highest salary
 

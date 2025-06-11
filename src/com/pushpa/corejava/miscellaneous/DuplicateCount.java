@@ -1,6 +1,7 @@
 package com.pushpa.corejava.miscellaneous;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class    DuplicateCount {
@@ -23,10 +24,10 @@ public class    DuplicateCount {
         System.out.println("initial list : "+integerList);
 
         Map<Integer,Long> integerMap = new HashMap<>();
-        integerMap = integerList.stream().collect(Collectors.groupingBy(integer -> integer, Collectors.counting()));
+        integerMap = integerList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println("after map "+integerMap);
 
-        integerMap = integerList.stream().distinct().collect(Collectors.groupingBy(integer -> integer, Collectors.counting()));
+        integerMap = integerList.stream().distinct().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println("after distinct map "+integerMap);
 
     }
